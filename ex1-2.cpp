@@ -37,3 +37,28 @@ output :
 7 x 9 = 63  , 8 x  9 = 72 , 9 x 9 = 81
     return 0;
 }
+
+
+
+#include <iostream>
+using namespace std; // 9x9  乘法表
+int main()
+{
+int i,j; 
+for(i=0;i<=9;i++){
+      for(j=0;j<=9;j++){
+            printf("%2d * %2d == %2d\n”,i,j,i*j");
+      }
+ }
+}
+
+printf("1 * 1 == 1 , 2 * 1 == 2 , 3 * 1 = 3 ,
+"1 * 2 == 2 , 2 * 2 = 4 , 3 * 2 == 6",
+....
+
+"4 * 1 == 4   , 5 * 1 == 5 , 6 * 1 == 6,"
+...
+..
+7 x 9 = 63  , 8 x  9 = 72 , 9 x 9 = 81
+    return 0;
+}
